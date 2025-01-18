@@ -8,6 +8,7 @@
     --bcg-color:#FFFFFF;
     --join-bcg:#292F36;
     --list-bcg: #E7E7E7;;
+    --footer-brdr:#f5f5f5;
 }
 
 body{
@@ -124,7 +125,7 @@ margin-bottom: 435px;
 .features-list{
     display: flex;
     justify-content: center;
-    gap: 100px;
+
 }
 
 .features-title{
@@ -148,6 +149,8 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.50; /* 150% */
 letter-spacing: 0.22px;
+margin-left: 42px;
+padding-right: 41px;
 }
 
 .features-desk:nth-child(2){
@@ -177,7 +180,6 @@ letter-spacing: 0.22px;
 .features-btn{
     color: var(--text-color);
 text-align: center;
-
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
@@ -185,8 +187,13 @@ line-height: 1.50; /* 150% */
 letter-spacing: 0.36px;
 border: none;
 background-color:var(--bcg-color);
+padding-left: 138px;
+padding-right: 168px;
 }
 
+.call{
+    display: flex
+}
 
 .call-title{
     width: 450px;
@@ -262,7 +269,6 @@ letter-spacing: 0.72px;
 .call-image{
     width: 592px;
     height: 635px;
-    display: flex;
 }
 
 .review{
@@ -446,6 +452,7 @@ margin-right: auto;
 .achievements-title{
     color: var(--achievement-bcg);
 font-family: "DM Serif Display";
+text-align: center;
 font-size: 85px;
 font-style: normal;
 font-weight: 400;
@@ -462,6 +469,7 @@ font-weight: 400;
 line-height: 1.50; /* 150% */
 letter-spacing: 0.22px;
 padding-bottom: 150px;
+padding-right: 135px;
 }
 
 /* Recent */
@@ -557,7 +565,7 @@ margin-bottom: 41px;
 
 .join{
     width: 1200px;
-    height: 414px;
+    height: 410px;
     margin-top: 141px;
     border-radius: 70px;
     background: var(--join-bcg);
@@ -584,7 +592,7 @@ font-family: Jost;
 font-size: 22px;
 font-style: normal;
 font-weight: 400;
-line-height: 33px; /* 150% */
+line-height: 1.50; /* 150% */
 letter-spacing: 0.22px;
 }
 
@@ -595,12 +603,146 @@ border-radius: 18px;
 background-color: var(--achievement-bcg);
 color: var(--bcg-color);
 text-align: center;
-font-family: Jost;
+
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
-line-height: 27px; /* 150% */
+line-height: 1.50; /* 150% */
 letter-spacing: 0.22px;
 border: none;
+margin-top: 31px;
+margin-bottom: 95px;
+margin-left: 474px;
+margin-right: 485px;
+}
 
+.footer2{
+    margin-top: 130px;
+    display: flex;
+}
+
+.footer-text{
+    color: var(--text-color);
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.22px;
+padding-top: 15px;
+padding-bottom: 30px;
+width: 326px;
+}
+
+.footer-list{
+    display: flex;
+    gap: 40px;
+    padding-bottom: 196px;
+    padding-right: 228px;
+}
+
+.pages-title{
+    color: var(--title-color);
+font-family: "DM Serif Display";
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.22px;
+padding-bottom: 21px;
+}
+
+.pages-list{
+    margin-right: 97px;
+}
+
+.pages-item{
+    padding-bottom: 30px;
+}
+
+.pages-link{
+    color: var(--text-color);
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.22px;
+}
+
+.explore-list{
+    margin-right: 86px;
+}
+
+.explore-title{
+    color: var(--title-color);
+font-family: "DM Serif Display";
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.22px;
+margin-right: 137px;
+padding-bottom: 21px;
+}
+
+.explore-item{
+    padding-bottom: 30px;
+}
+
+.explore-link{
+    color: var(--text-color);
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.22px;
+}
+
+.contact-title{
+    color: var(--title-color);
+font-family: "DM Serif Display";
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.22px;
+padding-bottom: 22px;
+}
+
+.contact-item{
+    padding-bottom: 29px;
+}
+
+.contact-link{
+    color: var(--text-color);
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.22px;
+}
+
+.Copyright{
+    border-top: 3px solid var(--footer-brdr) ;
+    padding-top: 35px;
+    padding-bottom: 36px;
+}
+
+.copyright-text{
+    color: var(--text-color);
+text-align: center;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.22px;
+}
+
+.copyright-color{
+    color: var(--hover-color);
+text-align: center;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.22px;
 }
