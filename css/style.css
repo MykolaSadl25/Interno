@@ -7,6 +7,7 @@
     --achievement-bcg:#CDA274;
     --bcg-color:#FFFFFF;
     --join-bcg:#292F36;
+    --list-bcg: #E7E7E7;;
 }
 
 body{
@@ -359,6 +360,8 @@ text-align: center;
     align-items: center;
 }
 
+/* Project */
+
 .project{
     margin-top: 143px;
 }
@@ -425,6 +428,8 @@ padding-bottom: 61px;
 margin-bottom: 140px;
 }
 
+/* Achievements */
+
 .achievements{
     background: var(--review-bcg);
 
@@ -447,17 +452,155 @@ font-weight: 400;
 line-height: 1.50; /* 150% */
 letter-spacing: 1.7px;
 padding-top: 154px;
-/* margin-left: 210px;
-margin-right: 210px; */
 }
-/* a */
 .achievements-text{
     color: var(--text-color);
 text-align: center;
 font-size: 22px;
 font-style: normal;
 font-weight: 400;
-line-height: 33px; /* 150% */
+line-height: 1.50; /* 150% */
 letter-spacing: 0.22px;
 padding-bottom: 150px;
+}
+
+/* Recent */
+
+.recent-title{
+    margin-top: 143px;
+    color: var(--title-color);
+text-align: center;
+font-family: "DM Serif Display";
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.30; /* 130% */
+letter-spacing: 0.22px;
+}
+
+.recent-subtitle{
+    color: var(--text-color);
+text-align: center;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.22px;
+}
+
+.recent-subtitle2{
+    color: var(--text-color);
+text-align: center;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.22px;
+}
+
+.recent-list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: calc((100% - 40px) /3);;
+}
+
+.recent-item{
+    width: 387px;
+height: 515px;
+border-radius: 62px;
+border: 1px solid var(--list-bcg);
+
+margin-bottom: 40px;
+}
+
+.recent-image{
+    padding: 21px 21px 15px 21px;
+}
+
+.recent-subject{
+    color: var(--title-color);
+font-family: "DM Serif Display";
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.40; /* 140% */
+letter-spacing: 0.5px;
+padding-left: 21px;
+padding-bottom: 34px;
+}
+
+.recent-text{
+    color: var(--text-color);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.22px;
+padding-left: 21px;
+}
+
+.recent-btn{
+    width: 52px;
+height: 52px;
+border-radius: 100px;
+border: none;
+background: var(--buttons-bcg);
+background-image: url(../images/arrow.png);
+background-repeat: no-repeat;
+background-position: center;
+margin-right: 21px;
+margin-left: 314px;
+margin-bottom: 41px;
+}
+
+/* Join */
+
+.join{
+    width: 1200px;
+    height: 414px;
+    margin-top: 141px;
+    border-radius: 70px;
+    background: var(--join-bcg);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.join-title{
+    color: var(--bcg-color);
+text-align: center;
+font-family: "DM Serif Display";
+font-size: 50px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.22px;
+padding-top: 100px;
+}
+
+.join-text{
+    color: var(--bcg-color);
+text-align: center;
+font-family: Jost;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 33px; /* 150% */
+letter-spacing: 0.22px;
+}
+
+.join-button{
+    width: 241px;
+height: 71px;
+border-radius: 18px;
+background-color: var(--achievement-bcg);
+color: var(--bcg-color);
+text-align: center;
+font-family: Jost;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px; /* 150% */
+letter-spacing: 0.22px;
+border: none;
+
 }
