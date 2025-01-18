@@ -120,19 +120,28 @@ margin-bottom: 435px;
     margin-bottom: 170px;
 }
 
+.features-list{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
 .features-title{
     color: var(--title-color);
 font-family: "DM Serif Display";
+text-align: center;
 font-size: 25px;
 font-style: normal;
 font-weight: 400;
 line-height: 1.56; /* 156% */
 letter-spacing: 0.22px;
+padding-bottom: 17px;
 }
 
 .features-desk:nth-child(1){
     width: 317px;
     color:var(--text-color);
+    text-align: center;
 font-size: 22px;
 font-style: normal;
 font-weight: 400;
@@ -143,15 +152,20 @@ letter-spacing: 0.22px;
 .features-desk:nth-child(2){
 
     color:var(--text-color);
+    width: 297px;
 font-size: 22px;
+text-align: center;
 font-style: normal;
 font-weight: 400;
 line-height: 1.50; /* 150% */
 letter-spacing: 0.22px;
+padding-bottom: 68px;
 }
 
-.features-desk{
+.features-desk:nth-child(3){
     color:var(--text-color);
+    text-align: center;
+    width: 296px;
 font-size: 22px;
 font-style: normal;
 font-weight: 400;
@@ -168,7 +182,10 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.50; /* 150% */
 letter-spacing: 0.36px;
+border: none;
+background-color:var(--bcg-color);
 }
+
 
 .call-title{
     width: 450px;
@@ -199,6 +216,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.50; /* 150% */
 letter-spacing: 0.22px;
+padding-bottom: 46px;
 }
 
 .call-link{
@@ -222,6 +240,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.50; /* 150% */
 letter-spacing: 0.22px;
+padding-bottom: 68px;
 }
 
 .call-button{
@@ -242,6 +261,7 @@ letter-spacing: 0.72px;
 .call-image{
     width: 592px;
     height: 635px;
+    display: flex;
 }
 
 .review{
@@ -262,6 +282,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.30; /* 130% */
 letter-spacing: 0.22px;
+padding-top: 103px;
 }
 
 .review-title2{
@@ -273,6 +294,14 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.30; /* 130% */
 letter-spacing: 0.22px;
+padding-bottom: 47px;
+}
+
+.review-list{
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    padding-bottom: 121px;
 }
 
 .review-item{
@@ -280,11 +309,13 @@ letter-spacing: 0.22px;
 background: var(--bcg-color);
 width: 354px;
 height: 287px;
+
 }
 
 
 .review-image{
     width: 77px;
+    padding-top: 50px;
 }
 
 .review-subtitle{
@@ -295,6 +326,8 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.50; /* 150% */
 letter-spacing: 0.22px;
+text-align: center;
+
 }
 
 .review-desk{
@@ -305,6 +338,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.50; /* 150% */
 letter-spacing: 0.22px;
+text-align: center;
 }
 
 .review-subject{
@@ -314,6 +348,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.50; /* 150% */
 letter-spacing: 0.22px;
+text-align: center;
 }
 
 .brands-list{
@@ -387,4 +422,42 @@ font-weight: 400;
 line-height: 1.50; /* 150% */
 letter-spacing: 0.22px;
 padding-bottom: 61px;
+margin-bottom: 140px;
+}
+
+.achievements{
+    background: var(--review-bcg);
+
+margin-left: auto;
+margin-right: auto;
+}
+
+.achievements-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.achievements-title{
+    color: var(--achievement-bcg);
+font-family: "DM Serif Display";
+font-size: 85px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 1.7px;
+padding-top: 154px;
+/* margin-left: 210px;
+margin-right: 210px; */
+}
+
+.achievements-text{
+    color: var(--text-color);
+text-align: center;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 33px; /* 150% */
+letter-spacing: 0.22px;
+padding-bottom: 150px;
 }
