@@ -25,7 +25,7 @@ body{
 }
 
 .header{
-    margin-bottom: 30px;
+    padding: 30px 0px;
 }
 
 .navigation{
@@ -35,7 +35,6 @@ body{
 .header-box{
     display: flex;
     align-items: center;
-    padding: 30px 0px;
 }
 
 .header-list{
@@ -89,13 +88,11 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.50; /* 150% */
 letter-spacing: 0.22px;
-padding-top: 12px;
 margin-bottom: 35px;
 }
 
 .dream-button{
-    width: 207px;
-    height: 71px;
+    padding: 22px 67px 22px 34px;
     background-color: #292F36;
     color: var(--bcg-color);
 font-size: 18px;
@@ -109,14 +106,21 @@ border-radius: 15px;
 }
 
 .features{
-    padding-top: 175px;
-    padding-bottom: 170px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .features-list{
     display: flex;
     justify-content: center;
 
+}
+
+.features-item{
+    padding-top: 75px;
+    padding-left: 42px;
+    padding-right: 41px;
+    padding-bottom: 70px;
 }
 
 .features-title{
@@ -140,8 +144,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.50; /* 150% */
 letter-spacing: 0.22px;
-margin-left: 42px;
-margin-right: 41px;
+margin-bottom: 68px;
 }
 
 .features-desk:nth-child(2){
@@ -154,7 +157,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.50; /* 150% */
 letter-spacing: 0.22px;
-padding-bottom: 68px;
+margin-bottom: 35px;
 }
 
 .features-desk:nth-child(3){
@@ -166,6 +169,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.50; /* 150% */
 letter-spacing: 0.22px;
+margin-bottom: 35px;
 }
 
 .features-btn{
@@ -181,10 +185,10 @@ background-color:var(--bcg-color);
 
 }
 
-.call{
-    display: flex
+.call-text{
+    display: flex;
+    align-items:center ;
 }
-
 .call-title{
     width: 450px;
     color: var(--title-color);
@@ -196,6 +200,7 @@ line-height: 1.30; /* 130% */
 letter-spacing: 0.22px;
 margin-bottom: 42px;
 }
+
 .call-desk{
     width: 531px;
     color: var(--text-color);
@@ -206,16 +211,7 @@ line-height: 1.50; /* 150% */
 letter-spacing: 0.22px;
 }
 
-.call-desk2{
-    width: 492px;
-    color: var(--text-color);
-font-size: 22px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.50; /* 150% */
-letter-spacing: 0.22px;
-margin-bottom: 46px;
-}
+
 
 .call-link{
     width: 93px;
@@ -260,7 +256,6 @@ letter-spacing: 0.72px;
     width: 592px;
     height: 635px;
 }
-
 .review{
     margin-top: 139px;
     margin-left: auto;
