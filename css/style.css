@@ -440,12 +440,18 @@ height: 70px;
 
 margin-left: auto;
 margin-right: auto;
+padding-top: 140px;
+padding-bottom: 140px;
 }
 
 .achievements-list{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+.achievements-item{
+    padding: 14px 55px 10px 33px;
+    border-right: 2px solid var(--achievement-bcg);
 }
 
 .achievements-title{
@@ -457,7 +463,8 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.50; /* 150% */
 letter-spacing: 1.7px;
-padding-top: 154px;
+margin-bottom: 12px;
+
 }
 .achievements-text{
     color: var(--text-color);
@@ -467,8 +474,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.50; /* 150% */
 letter-spacing: 0.22px;
-padding-bottom: 150px;
-padding-right: 135px;
+
 }
 
 /* Recent */
@@ -511,7 +517,7 @@ letter-spacing: 0.22px;
 .recent-list{
     display: flex;
     flex-wrap: wrap;
-    flex-basis: calc((100% - 40px) /3);;
+    
 }
 
 .recent-item{
@@ -519,13 +525,12 @@ letter-spacing: 0.22px;
 height: 515px;
 border-radius: 62px;
 border: 1px solid var(--list-bcg);
-
+padding: 21px 41px 21px 21px ;
 margin-bottom: 40px;
+flex-basis:calc((100% - 40px) /3);
 }
 
-.recent-image{
-    padding: 21px 21px 15px 21px;
-}
+    
 
 .recent-subject{
     color: var(--title-color);
@@ -535,8 +540,18 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.40; /* 140% */
 letter-spacing: 0.5px;
-padding-left: 21px;
-padding-bottom: 34px;
+margin-top: 15px;
+}
+
+.recent-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.recent-item:nth-child(3)>.recent-subject{
+    width: 337px;
 }
 
 .recent-text{
@@ -546,7 +561,8 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.50; /* 150% */
 letter-spacing: 0.22px;
-padding-left: 21px;
+margin-top: 34px;
+/* margin-right: 148px; */
 }
 
 .recent-btn{
@@ -558,9 +574,6 @@ background: var(--buttons-bcg);
 background-image: url(../images/arrow.png);
 background-repeat: no-repeat;
 background-position: center;
-margin-right: 21px;
-margin-left: 314px;
-margin-bottom: 41px;
 }
 
 /* Join */
