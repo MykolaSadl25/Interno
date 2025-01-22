@@ -108,6 +108,7 @@ border-radius: 15px;
 .features{
     padding-top: 100px;
     padding-bottom: 100px;
+    text-align: center;
 }
 
 .features-list{
@@ -185,10 +186,10 @@ background-color:var(--bcg-color);
 
 }
 
-.call-text{
+ .call-box{
     display: flex;
-    align-items:center ;
-}
+    justify-content: space-between;
+ }
 .call-title{
     width: 450px;
     color: var(--title-color);
@@ -209,6 +210,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.50; /* 150% */
 letter-spacing: 0.22px;
+margin-bottom: 40px;
 }
 
 
@@ -216,6 +218,11 @@ letter-spacing: 0.22px;
 .call-link{
     width: 93px;
     height: 93px;
+    margin-right: 20px;
+}
+
+.call-phone{
+    display: flex;
 }
 
 .call-tel{
@@ -241,8 +248,6 @@ margin-bottom: 68px;
     border-radius: 18px;
 border: 2px solid var(--title-color);
 background: var(--title-color);
-width: 263px;
-height: 71px;
 color: var(--bcg-color);
 font-family: Jost;
 font-size: 18px;
@@ -250,12 +255,9 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.50; /* 150% */
 letter-spacing: 0.72px;
+padding: 21px 67px 23px 34px;
 }
 
-.call-image{
-    width: 592px;
-    height: 635px;
-}
 .review{
     margin-top: 139px;
     margin-left: auto;
@@ -299,15 +301,22 @@ padding-bottom: 47px;
 .review-item{
     border-radius: 30px;
 background: var(--bcg-color);
+padding-top: 50px;
+padding-right: 67px;
+padding-bottom: 45px;
+padding-left: 35px;
 width: 354px;
 height: 287px;
-
 }
 
+.review-box{
+    display: flex;
+}
 
 .review-image{
     width: 77px;
-    padding-top: 50px;
+height: 77px;
+margin-right: 20px;
 }
 
 .review-subtitle{
@@ -318,7 +327,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.50; /* 150% */
 letter-spacing: 0.22px;
-text-align: center;
+
 
 }
 
@@ -331,6 +340,7 @@ font-weight: 400;
 line-height: 1.50; /* 150% */
 letter-spacing: 0.22px;
 text-align: center;
+margin-bottom: 32px;
 }
 
 .review-subject{
@@ -340,7 +350,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.50; /* 150% */
 letter-spacing: 0.22px;
-text-align: center;
+
 }
 
 .brands{
@@ -384,7 +394,6 @@ padding-top: 20px;
 }
 
 
-
 .project-image{
     width: 590px;
     height: 661px;
@@ -411,6 +420,17 @@ font-weight: 400;
 line-height: 1.50; /* 150% */
 letter-spacing: 0.22px;
 padding-bottom: 61px;
+}
+
+.project-btn{
+    border-radius: 100px;
+background: var(--buttons-bcg);
+background-image: url(../images/arrow.png);
+background-repeat: no-repeat;
+background-position: center;
+border: none;
+width: 70px;
+height: 70px;
 }
 
 /* Achievements */
@@ -579,8 +599,10 @@ letter-spacing: 0.22px;
 }
 
 .join-button{
-    width: 241px;
-height: 71px;
+    padding-top: 21px;
+    padding-right: 67px;
+    padding-bottom: 23px;
+    padding-left: 34px;
 border-radius: 18px;
 background-color: var(--achievement-bcg);
 color: var(--bcg-color);
