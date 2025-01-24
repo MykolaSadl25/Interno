@@ -378,6 +378,10 @@ letter-spacing: 0.22px;
     /* justify-content: center; */
 }
 
+.project-item{
+    margin-bottom: 60px;
+}
+
 .project-title{
     color: var(--title-color);
 text-align: center;
@@ -397,7 +401,11 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.50; /* 150% */
 letter-spacing: 0.22px;
-padding-top: 20px;
+margin-top: 20px;
+margin-bottom: 70px;
+margin-left: auto;
+margin-right: auto;
+width: 786px;
 }
 
 .project-image{
@@ -405,6 +413,10 @@ padding-top: 20px;
     height: 661px;
 }
 
+
+.project-boxes{
+    display: flex;
+}
 
 .project-subject{
     color: var(--title-color);
@@ -415,7 +427,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.56; /* 156.25% */
 letter-spacing: 0.22px;
-padding-top: 20px;
+margin-top: 20px;
 }
 
 .project-desk{
@@ -438,8 +450,9 @@ background-position: center;
 border: none;
 width: 70px;
 height: 70px;
+margin-left: auto;
+margin-top: 25px;
 }
-
 /* Achievements */
 
 .achievements{
@@ -453,17 +466,26 @@ padding-bottom: 140px;
 
 .achievements-list{
     display: flex;
-    justify-content: space-between;
+    gap: 16px;
 }
 
-.achievements-item{
+.achievements-item:nth-child(1){
     padding: 14px 55px 10px 33px;
-    border-right: 2px solid var(--achievement-bcg);
+    border-right: 1px solid var(--achievement-bcg);
 }
 
-.achievements-item{
-    padding: 14px 55px 10px 33px;
-    border-right: 2px solid var(--achievement-bcg);
+.achievements-item:nth-child(2){
+    padding: 14px 78px 10px 57px;
+    border-right: 1px solid var(--achievement-bcg);
+}
+
+.achievements-item:nth-child(3){
+    padding: 14px 86px 10px 65px;
+    border-right: 1px solid var(--achievement-bcg);
+}
+
+.achievements-item:nth-child(4){
+    padding: 14px 67px 10px 47px;
 }
 
 .achievements-title{
@@ -557,13 +579,13 @@ font-weight: 400;
 line-height: 1.40; /* 140% */
 letter-spacing: 0.5px;
 margin-top: 15px;
+margin-bottom: 10px;
 }
 
 .recent-box{
     display: flex;
     align-items: center;
-    justify-content: center;
-    justify-content: space-between;
+    margin-top: 34px;
 }
 
 .recent-item:nth-child(3)>.recent-subject{
@@ -577,8 +599,6 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.50; /* 150% */
 letter-spacing: 0.22px;
-margin-top: 34px;
-/* margin-right: 148px; */
 }
 
 .recent-btn{
@@ -590,6 +610,7 @@ background: var(--buttons-bcg);
 background-image: url(../images/arrow.png);
 background-repeat: no-repeat;
 background-position: center;
+margin-left: auto;
 }
 
 /* Join */
