@@ -566,6 +566,7 @@ border: 1px solid var(--list-bcg);
 padding: 21px 41px 21px 21px ;
 margin-bottom: 40px;
 flex-basis:calc((100% - 40px) /3);
+position: relative;
 }
 
     
@@ -611,6 +612,23 @@ background-image: url(../images/arrow.png);
 background-repeat: no-repeat;
 background-position: center;
 margin-left: auto;
+}
+
+.recent-button{
+    border: none;
+    border-radius: 8px 8px 8px 0px;
+    background: var(--bcg-color);
+    padding: 9px 10px 11px 10px;
+    color: #4D5053;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.22px;
+position: absolute;
+top: 244px;
+left: 45px;
+
 }
 
 /* Join */
