@@ -21,7 +21,8 @@ body{
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    /* outline: 2px solid orange; */
+    outline: 2px solid orange;
+    
 }
 
 .header{
@@ -102,7 +103,7 @@ line-height: 1.50; /* 150% */
 letter-spacing: 0.72px;
 border: none;
 border-radius: 15px;
-margin-bottom: 260px;
+
 
 }
 
@@ -220,6 +221,7 @@ margin-bottom: 40px;
     width: 93px;
     height: 93px;
     margin-right: 20px;
+    margin-bottom: 68px;
 }
 
 .call-phone{
@@ -242,7 +244,6 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.50; /* 150% */
 letter-spacing: 0.22px;
-margin-bottom: 68px;
 }
 
 .call-button{
@@ -260,9 +261,12 @@ padding: 21px 67px 23px 34px;
 }
 
 .review{
-    margin-top: 139px;
+    padding-top: 139px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.review>.container{
     border-radius: 70px;
     background: var(--review-bcg);
     width: 1200px;
@@ -355,7 +359,7 @@ letter-spacing: 0.22px;
 }
 
 .brands{
-    margin-top: 141px;
+    padding-top: 141px;
 }
 
 .brands-list{
@@ -367,8 +371,8 @@ letter-spacing: 0.22px;
 /* Project */
 
 .project{
-    margin-top: 143px;
-    margin-bottom: 140px;
+    padding-top: 143px;
+    padding-bottom: 140px;
 }
 
 .project-list{
@@ -514,7 +518,7 @@ letter-spacing: 0.22px;
 /* Recent */
 
 .recent{
-    margin-top: 143px;
+    padding-top: 143px;
 }
 
 .recent-title{
@@ -634,14 +638,18 @@ left: 45px;
 /* Join */
 
 .join{
-    width: 1200px;
-    height: 410px;
-    margin-top: 141px;
-    border-radius: 70px;
-    background: var(--join-bcg);
+    
+    padding-top: 141px;
+    padding-bottom: 129px;
     margin-left: auto;
     margin-right: auto;
 }
+
+.join>.container{
+    border-radius: 70px;
+    background: var(--join-bcg);
+}
+
 
 .join-title{
     color: var(--bcg-color);
@@ -689,8 +697,7 @@ margin-right: 485px;
 }
 
 .footer2{
-    margin-top: 130px;
-    margin-bottom: 80px;
+    padding-bottom: 80px;
     display: flex;
 }
 
