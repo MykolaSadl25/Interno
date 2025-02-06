@@ -221,11 +221,12 @@ margin-bottom: 40px;
     width: 93px;
     height: 93px;
     margin-right: 20px;
-    margin-bottom: 68px;
+    
 }
 
 .call-phone{
     display: flex;
+    margin-bottom: 50px;
 }
 
 .call-tel{
@@ -269,8 +270,15 @@ padding: 21px 67px 23px 34px;
 .review>.container{
     border-radius: 70px;
     background: var(--review-bcg);
-    width: 1200px;
+
+    padding-top: 103px;
+    padding-bottom: 121px;
 }
+
+/* .review-wrap{
+    margin-top: 103px;
+    margin-bottom: 121px;
+} */
 
 .review-title{
     color: var(--title-color);
@@ -281,7 +289,6 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.30; /* 130% */
 letter-spacing: 0.22px;
-padding-top: 103px;
 }
 
 .review-title2{
@@ -300,7 +307,7 @@ margin-bottom: 47px;
     display: flex;
     gap: 18px;
     justify-content: center;
-    padding-bottom: 121px;
+    /* padding-bottom: 121px; */
 }
 
 .review-item{
@@ -708,14 +715,14 @@ line-height: 1.50; /* 150% */
 letter-spacing: 0.22px;
 padding-top: 15px;
 padding-bottom: 30px;
+margin-right: 83px;
 width: 326px;
 }
 
 .footer-list{
     display: flex;
     gap: 40px;
-    padding-bottom: 196px;
-    padding-right: 228px;
+    margin-bottom: 196px;
 }
 
 .pages-title{
