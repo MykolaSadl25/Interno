@@ -1,0 +1,9 @@
+.brands {
+  padding-top: 141px;
+
+  &__list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}

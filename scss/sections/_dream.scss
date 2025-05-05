@@ -1,0 +1,68 @@
+.dream {
+  background-image: url(../images/house.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 195px 0px 260px 0px;
+
+  &__title {
+    width: 595px;
+    color: $title-color;
+    font-family: "DM Serif Display";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2; /* 120% */
+    letter-spacing: 0.22px;
+    margin-bottom: 12px;
+  }
+
+  &__desk {
+    color: $text-color;
+    width: 577px;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.22px;
+    margin-bottom: 35px;
+  }
+
+  &__button {
+    padding: 22px 67px 22px 34px;
+    background-color: $hero-btn-bcg;
+    color: $bcg-color;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.72px;
+    border: none;
+    border-radius: 15px;
+    animation-name: move-btn;
+    animation-duration: 1000ms;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-delay: 200ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+}
+
+// @keyframes move-btn{
+//     0%{
+//         background-color: #292F36;
+//         transform: scale(0.9);
+//     }
+//     25%{
+//         background-color: #395d84;
+//     }
+//     50%{
+//         background-color: #364453;
+//     }
+//     75%{
+//         background-color: #3a6699;
+//     }
+//     100%{
+//         background-color: #227be0;
+//         transform: scale(1.1);
+//     }
+// }

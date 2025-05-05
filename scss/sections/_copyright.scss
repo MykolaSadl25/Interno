@@ -1,0 +1,25 @@
+.copyright {
+  border-top: 3px solid $footer-brdr;
+  padding-top: 35px;
+  padding-bottom: 36px;
+}
+
+.copyright__text {
+  color: $text-color;
+  text-align: center;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.22px;
+}
+
+.copyright__color {
+  color: $hover-color;
+  text-align: center;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.22px;
+}

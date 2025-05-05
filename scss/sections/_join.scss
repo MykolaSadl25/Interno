@@ -1,0 +1,68 @@
+/* Join */
+
+.join > .container {
+  border-radius: 70px;
+  background: $join-bcg;
+}
+
+.join {
+  padding-top: 141px;
+  padding-bottom: 129px;
+  margin-left: auto;
+  margin-right: auto;
+
+  &__wrap {
+    padding-right: 333px;
+    padding-bottom: 95px;
+    padding-left: 333px;
+    text-align: center;
+  }
+
+  &__title {
+    color: $bcg-color;
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.22px;
+    margin-bottom: 9px;
+    padding-top: 100px;
+  }
+
+  &__text {
+    color: $bcg-color;
+    text-align: center;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.22px;
+    margin-bottom: 31px;
+  }
+
+  &__box{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 95px;
+  }
+
+  &__button {
+    padding-top: 21px;
+    padding-right: 67px;
+    padding-bottom: 23px;
+    padding-left: 34px;
+    border-radius: 18px;
+    background-color: $achievement-bcg;
+    color: $bcg-color;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.22px;
+    border: none;
+  }
+}

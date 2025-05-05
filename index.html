@@ -11,35 +11,39 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./style/main.min.css">
   </head>
   <body>
     <header class="header">
-      <div class="container header-box">
-        <a href="./index.html"><img class="header-logo" src="./images/logo.png" alt="Interno Logo"></a>
-        <nav class="navigation">
-          <ul class="header-list">
-            <li class="header-item">
-              <a class="header-link" href="#">Home</a>
+      <div class="container header__box">
+        <a href="./index.html"><img class="header__logo" src="./images/logo.png" alt="Interno Logo"></a>
+        <nav class="header__navigation">
+          <ul class="header__list">
+            <li class="header__item">
+              <a class="header__link" href="#">Home</a>
             </li>
-            <li class="header-item">
-              <a class="header-link" href="#">About Us</a>
+            <li class="header__item">
+              <a class="header__link" href="#">About Us</a>
             </li>
-            <li class="header-item">
-              <a class="header-link" href="#">Services</a>
+            <li class="header__item">
+              <a class="header__link" href="#">Services</a>
             </li>
-            <li class="header-item">
-              <a class="header-link" href="#">Pages</a>
+            <li class="header__item">
+              <a class="header__link" href="#">Pages</a>
             </li>
-            <li class="header-item">
-              <a class="header-link" href="#">Contact Us</a>
+            <li class="header__item">
+              <a class="header__link" href="#qwerty">Contact Us</a>
             </li>
           </ul>
         </nav>
@@ -48,110 +52,110 @@
     <main>
       <section class="dream">
         <div class="container">
-        <h1 class="dream-title">Let's Create Your Dream Interior</h1>
-        <p class="dream-desk">
+        <h1 class="dream__title animate__animated animate__wobble animate__infinite animate__slower">Let's Create Your Dream Interior</h1>
+        <p class="dream__desk">
           The world needs innovators and problem solvers who turn challenges into greater opportunities.
         </p>
-        <button class="dream-button" type="button">Get Started</button>
+        <button class="dream__button" type="button" data-modal-open>Get Started</button>
         
         </div>
       </section>
       <section class="features">
         <div class="container">
-          <ul class="features-list">
-            <li class="features-item">
-                <h2 class="features-title">Interior Design</h2>
-                <p class="features-desk">
+          <ul class="features__list">
+            <li class="features__item" data-aos="fade-up">
+                <h2 class="features__title">Interior Design</h2>
+                <p class="features__desk">
                   Enhancing the interior to achieve a healthier environment for
                   the people using right space.
                 </p>
-                <button class="features-btn">View More</button>
+                <button class="features__btn animate__animated animate__pulse animate__infinite animate__slow">View More</button>
             </li>
-            <li class="features-item">
-                <h2 class="features-title">Furniture</h2>
-                <p class="features-desk">
+            <li class="features__item" data-aos="fade-up">
+                <h2 class="features__title">Furniture</h2>
+                <p class="features__desk">
                   Movable articles that are used to make a room or building
                   suitable for living or working.
                 </p>
-                <button class="features-btn">View More</button>
+                <button class="features__btn animate__animated animate__pulse animate__infinite animate__slow">View More</button>
   
             </li>
-            <li class="features-item">
-                <h2 class="features-title">Flooring</h2>
-                <p class="features-desk">
+            <li class="features__item" data-aos="fade-up">
+                <h2 class="features__title">Flooring</h2>
+                <p class="features__desk">
                   Thin object any finished material applied over a floor structure
                   to provide a walking surface.
                 </p>
-                <button class="features-btn">View More</button>
+                <button class="features__btn animate__animated animate__pulse animate__infinite animate__slow">View More</button>
             </li>
           </ul>
         </div>
       </section>
-      <section class="call">
-        <div class="container call-box">
-          <div class="call-text">
-            <h2 class="call-title">We Tackle The Most Challenging Designs</h2>
-        <p class="call-desk">
+      <section class="call" data-aos="fade-up">
+        <div class="container call__box">
+          <div class="call__text">
+            <h2 class="call__title">We Tackle The Most Challenging Designs</h2>
+        <p class="call__desk">
           The world needs innovators and problem solvers who turn challenges
           into greater opportunities. We have an insatiable curiosity about
           transformative trends challenging the status.
         </p>
-        <div class="call-phone">
-          <a class="call-link" href="tel:012345678"><img src="./images/tel.png" alt="tel"></a>
+        <div class="call__phone">
+          <a class="call__link" href="tel:012345678"><img class="animate__animated animate__tada animate__infinite" src="./images/tel.png" alt="tel"></a>
         <div>
-          <a href="tel:012345678" class="call-tel">012345678</a>
-        <p class="call-subtitle">Call Us Anytime</p>
+          <a href="tel:012345678" class="call__tel">012345678</a>
+        <p class="call__subtitle">Call Us Anytime</p>
         </div>
         </div>
-        <button class="call-button" type="button">Get Free Estimate</button>
+        <button class="call__button" type="button">Get Free Estimate</button>
           </div>
           <img
-          class="call-image"
+          class="call__image"
           src="./images/flat.jpg"
           alt="flat"
         />
         </div>
       </section>
-      <section class="review">
-        <div class="container review-wrap">
-          <h2 class="review-title">What the People Thinks</h2>
-          <h2 class="review-title2">About Interno</h2>
-        <ul class="review-list ">
-          <li class="review-item">
-            <div class="review-box">
-              <img class="review-image" src="./images/lisa.jpg" alt="lisa" />
+      <section class="review" data-aos="fade-up">
+        <div class="container review__wrap">
+          <h2 class="review__title">What the People Thinks</h2>
+          <h2 class="review__title2">About Interno</h2>
+        <ul class="review__list ">
+          <li class="review__item" data-aos="fade-right">
+            <div class="review__box">
+              <img class="review__image" src="./images/lisa.jpg" alt="lisa" />
             <div>
-              <h2 class="review-subtitle">Lisa Clairton</h2>
-            <address class="review-desk">New York, USA</address>
+              <h2 class="review__subtitle">Lisa Clairton</h2>
+            <address class="review__desk">New York, USA</address>
             </div>
             </div>
-            <p class="review-subject">
+            <p class="review__subject">
               We selected Interno interior because of rigorous design background
               & education.
             </p>
           </li>
-          <li class="review-item">
-            <div class="review-box">
-              <img class="review-image" src="./images/david.jpg" alt="david" />
+          <li class="review__item" data-aos="fade-down">
+            <div class="review__box">
+              <img class="review__image" src="./images/david.jpg" alt="david" />
             <div>
-              <h2 class="review-subtitle">David Knight</h2>
-            <address class="review-desk">Sydney, Australia</address>
+              <h2 class="review__subtitle">David Knight</h2>
+            <address class="review__desk">Sydney, Australia</address>
             </div>
             </div>
-            <p class="review-subject">
+            <p class="review__subject">
               The team exceeded our expectations and emerged as leaders of our
               project’s.
             </p>
           </li>
-          <li class="review-item">
-            <div class="review-box">
-              <img class="review-image" src="./images/lisa2.jpg" alt="lisa" />
+          <li class="review__item" data-aos="fade-left">
+            <div class="review__box">
+              <img class="review__image" src="./images/lisa2.jpg" alt="lisa" />
             <div>
-              <h2 class="review-subtitle">Lisa Clairton</h2>
-            <address class="review-desk">Paris, France</address>
+              <h2 class="review__subtitle">Lisa Clairton</h2>
+            <address class="review__desk">Paris, France</address>
             </div>
             </div>
-            <p class="review-subject">
+            <p class="review__subject">
               They balanced the architectural vision and the project realities
               beautifully.
             </p>
@@ -160,26 +164,26 @@
       </section>
       <section class="brands">
         <div class="container">
-          <ul class="brands-list">
-            <li class="brands-item">
-              <a class="brand-link" href="#"><img class="brands-image" src="./images/modern.jpg" alt="modern" /></a>
+          <ul class="brands__list">
+            <li class="brands__item">
+              <a class="brand__link" href="#"><img class="brands__image" src="./images/modern.jpg" alt="modern" /></a>
             </li>
-            <li class="brands-item">
-              <a class="brand-link" href="#"><img
-                class="brands-image"
+            <li class="brands__item">
+              <a class="brand__link" href="#"><img
+                class="brands__image"
                 src="./images/stylevintage.jpg"
                 alt="stylevintage"
               /></a>
             </li>
-            <li class="brands-item">
-              <a class="brand-link" href="#"><img class="brands-image" src="./images/brand.jpg" alt="brand" /></a>
+            <li class="brands__item">
+              <a class="brand__link" href="#"><img class="brands__image" src="./images/brand.jpg" alt="brand" /></a>
             </li>
-            <li class="brands-item">
-              <a class="brand-link" href="#"><img class="brands-image" src="./images/nature.jpg" alt="nature" /></a>
+            <li class="brands__item">
+              <a class="brand__link" href="#"><img class="brands__image" src="./images/nature.jpg" alt="nature" /></a>
             </li>
-            <li class="brands-item">
-              <a class="brand-link" href="#"><img
-                class="brands-image"
+            <li class="brands__item">
+              <a class="brand__link" href="#"><img
+                class="brands__image"
                 src="./images/classic.png"
                 alt="classic"
               /></a>
@@ -187,56 +191,59 @@
           </ul>
         </div>
       </section>
-      <section class="project">
+      <section class="project" data-aos="fade-up">
         <div class="container">
-          <h2 class="project-title">Recent Projects</h2>
-        <p class="project-subtitle">
+          <h2 class="project__title">Recent Projects</h2>
+        <p class="project__subtitle">
           With tools to make every part of your process more human and a support excited to help you, getting started with us never been easier
           team.
         </p>
-        <ul class="project-list">
-          <li class="project-item">
-            <img
-              class="project-image"
+        <ul class="project__list">
+          <li class="project__item">
+            <!-- <div class="position-box"> -->
+              <img
+              class="project__image"
               src="./images/plant.jpg"
               alt="room with plants"
             />
-            <div class="project-boxes">
-              <div class="project-box">
-                <h3 class="project-subject">Winery Dry Creek Building</h3>
-            <p class="project-desk">Art Modern</p>
+            <!-- <p class="project-position">Lorem, ipsum dolor.</p>
+            </div> -->
+            <div class="project__boxes">
+              <div class="project__box">
+                <h3 class="project__subject">Winery Dry Creek Building</h3>
+            <p class="project__desk">Art Modern</p>
               </div>
-            <button type="button" class="project-btn"></button>
+            <button type="button" class="project__btn"></button>
             </div>
           </li>
-          <li class="project-item">
+          <li class="project__item">
             <img src="./images/table.jpg" alt="room with table" />
-            <div class="project-boxes">
-              <div class="project-box">
-                <h3 class="project-subject">Creative Workplace Design</h3>
-              <p class="project-desk">Minimalist</p>
+            <div class="project__boxes">
+              <div class="project__box">
+                <h3 class="project__subject">Creative Workplace Design</h3>
+              <p class="project__desk">Minimalist</p>
               </div>
-              <button type="button" class="project-btn"></button>
+              <button type="button" class="project__btn"></button>
             </div>
           </li>
-          <li class="project-item">
+          <li class="project__item">
             <img src="./images/shelf.jpg" alt="bed shelf" />
-            <div class="project-boxes">
-              <div class="project-box">
-                <h3 class="project-subject">Bedroom Interior Pot Work</h3>
-              <p class="project-desk">Modern</p>
+            <div class="project__boxes">
+              <div class="project__box">
+                <h3 class="project__subject">Bedroom Interior Pot Work</h3>
+              <p class="project__desk">Modern</p>
               </div>
-              <button type="button" class=" project-btn"></button>
+              <button type="button" class=" project__btn"></button>
             </div>
           </li>
-          <li class="project-item">
+          <li class="project__item">
             <img src="./images/bed.jpg" alt="room with bed" />
-            <div class="project-boxes">
-              <div class="project-box">
-                <h3 class="project-subject">Light Ambience Sepia Design</h3>
-              <p class="project-desk">Scandinavian</p>
+            <div class="project__boxes">
+              <div class="project__box">
+                <h3 class="project__subject">Light Ambience Sepia Design</h3>
+              <p class="project__desk">Scandinavian</p>
               </div>
-              <button type="button" class="project-btn"></button>
+              <button type="button" class="project__btn"></button>
             </div>
           </li>
         </ul>
@@ -244,206 +251,255 @@
       </section>
       <section class="achievements">
         <div class="container">
-          <ul class="achievements-list">
-            <li class="achievements-item">
-              <h2 class="achievements-title">12</h2>
-              <p class="achievements-text">Years Of Experiance</p>
+          <ul class="achievements__list">
+            <li class="achievements__item">
+              <h2 class="achievements__title">12</h2>
+              <p class="achievements__text">Years Of Experiance</p>
             </li>
-            <li class="achievements-item">
-              <h2 class="achievements-title">5K</h2>
-              <p class="achievements-text">Success Project</p>
+            <li class="achievements__item">
+              <h2 class="achievements__title">5K</h2>
+              <p class="achievements__text">Success Project</p>
             </li>
-            <li class="achievements-item">
-              <h2 class="achievements-title">1K</h2>
-              <p class="achievements-text">Active Project</p>
+            <li class="achievements__item">
+              <h2 class="achievements__title">1K</h2>
+              <p class="achievements__text">Active Project</p>
             </li>
-            <li class="achievements-item">
-              <h2 class="achievements-title">4K</h2>
-              <p class="achievements-text">Happy Customers</p>
+            <li class="achievements__item">
+              <h2 class="achievements__title">4K</h2>
+              <p class="achievements__text">Happy Customers</p>
             </li>
           </ul>
         </div>
       </section>
-      <section class="recent">
+      <section class="recent" data-aos="fade-up">
         <div class="container">
-          <h2 class="recent-title">Recent Blogs</h2>
-        <p class="recent-subtitle">
+          <h2 class="recent__title">Recent Blogs</h2>
+        <p class="recent__subtitle">
           Get updates about our latest trends and techniques used in interior
           design project works.
         </p>
-        <ul class="recent-list">
-          <li class="recent-item">
-            <img
-              class="recent-image"
+        <ul class="recent__list">
+          <li class="recent__item">
+            <!-- <div class="recent__wrap"> -->
+              <img
+              class="recent__image"
               src="./images/kitchen.jpg"
               alt="kitchen"
             />
-            <h3 class="recent-subject">
+            <!-- <p class="recent__sub">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, provident.</p> -->
+            <!-- </div> -->
+            <h3 class="recent__subject">
               Residential Interior Designer In New York, USA
             </h3>
-            <div class="recent-boxes">
-              <div class="recent-box">
-                <p class="recent-text">November 23, 2021</p>
-              <button type="button" class="recent-btn"></button>
+            <div class="recent__boxes">
+              <div class="recent__box">
+                <p class="recent__text">November 23, 2021</p>
+              <button type="button" class="recent__btn"></button>
               </div>
             </div>
-            <button type="button" class="recent-button">Kitchen Design</button>
+            <button type="button" class="recent__button">Kitchen Design</button>
           </li>
-          <li class="recent-item">
-            <img class="recent-image" src="./images/living.jpg" alt="" />
-            <h3 class="recent-subject">
+          <li class="recent__item">
+            <img class="recent__image" src="./images/living.jpg" alt="" />
+            <h3 class="recent__subject">
               How To Choose The Best Wall Art & Decor House?
             </h3>
-            <div class="recent-box">
-              <p class="recent-text">November 23, 2021</p>
-            <button type="button" class="recent-btn"></button>
+            <div class="recent__box">
+              <p class="recent__text">November 23, 2021</p>
+            <button type="button" class="recent__btn"></button>
             </div>
-            <button type="button" class="recent-button">Living Room</button>
+            <button type="button" class="recent__button">Living Room</button>
           </li>
-          <li class="recent-item">
-            <img class="recent-image" src="./images/minimalist.jpg" alt="" />
-            <h3 class="recent-subject">
+          <li class="recent__item">
+            <img class="recent__image" src="./images/minimalist.jpg" alt="" />
+            <h3 class="recent__subject">
               Tips To Increase The Interior Value Of Your House
             </h3>
-            <div class="recent-box">
-              <p class="recent-text">November 23, 2021</p>
-            <button type="button" class="recent-btn"></button>
+            <div class="recent__box">
+              <p class="recent__text">November 23, 2021</p>
+            <button type="button" class="recent__btn"></button>
             </div>
-            <button type="button" class="recent-button">Minimalist Interior</button>
+            <button type="button" class="recent__button">Minimalist Interior</button>
           </li>
-          <li class="recent-item">
-            <img class="recent-image" src="./images/kitchen2.jpg" alt="" />
-            <h3 class="recent-subject">
+          <li class="recent__item">
+            <img class="recent__image" src="./images/kitchen2.jpg" alt="" />
+            <h3 class="recent__subject">
               Best Solution For Any Office & Business Interior
             </h3>
-            <div class="recent-box">
-              <p class="recent-text">November 23, 2021</p>
-            <button type="button" class="recent-btn"></button>
+            <div class="recent__box">
+              <p class="recent__text">November 23, 2021</p>
+            <button type="button" class="recent__btn"></button>
             </div>
-            <button type="button" class="recent-button">Kitchen Design</button>
+            <button type="button" class="recent__button">Kitchen Design</button>
           </li>
-          <li class="recent-item">
-            <img class="recent-image" src="./images/living2.jpg" alt="" />
-            <h3 class="recent-subject">
+          <li class="recent__item">
+            <img class="recent__image" src="./images/living2.jpg" alt="" />
+            <h3 class="recent__subject">
               Get Solution For Building Construction Work
             </h3>
-            <div class="recent-box">
-              <p class="recent-text">November 23, 2021</p>
-            <button type="button" class="recent-btn"></button>
+            <div class="recent__box">
+              <p class="recent__text">November 23, 2021</p>
+            <button type="button" class="recent__btn"></button>
             </div>
-            <button type="button" class="recent-button">Living Room</button>
+            <button type="button" class="recent__button">Living Room</button>
           </li>
-          <li class="recent-item">
-            <img class="recent-image" src="./images/minimalist2.jpg" alt="" />
-            <h3 class="recent-subject">
+          <li class="recent__item">
+            <img class="recent__image" src="./images/minimalist2.jpg" alt="" />
+            <h3 class="recent__subject">
               Attain The Best Finish For The Kitchen Cabinets
             </h3>
-            <div class="recent-box">
-              <p class="recent-text">November 23, 2021</p>
-            <button type="button" class="recent-btn"></button>
+            <div class="recent__box">
+              <p class="recent__text">November 23, 2021</p>
+            <button type="button" class="recent__btn"></button>
             </div>
-            <button type="button" class="recent-button">Minimalist Interior</button>
+            <button type="button" class="recent__button">Minimalist Interior</button>
           </li>
         </ul>
         </div>
       </section>
-      <section class="join">
+      <section class="join" data-aos="fade-up">
         <div class="container join-wrap">
-          <h2 class="join-title">Wanna join the interno?</h2>
-        <p class="join-text">Contact Us & Get a Free Consultation</p>
-        <button class="join-button">Connect With us</button>
+          <h2 class="join__title">Wanna join the interno?</h2>
+        <p class="join__text">Contact Us & Get a Free Consultation</p>
+        <div class="join__box"><button class="join__button">Connect With us</button></div>
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer id="qwerty" class="footer">
       <div class="container">
         <section class="footer2">
-          <div class="footer-info">
-            <a class="footer-logo" href="./index.html"><img src="./images/logo.png" alt="logo"></a>
-          <p class="footer-text">
+          <div class="footer__info">
+            <a class="footer__logo" href="./index.html"><img src="./images/logo.png" alt="logo"></a>
+          <p class="footer__text">
             We are the leading architect and interior design firm in the world.
           </p>
-          <ul class="footer-list">
-            <li class="footer-social">
-              <a href="https://en-gb.facebook.com/" target="_blank"><img class="footer-image" src="./images/facebook.jpg" alt="facebook"/></a>
+          <ul class="footer__list">
+            <li class="footer__social">
+              <a href="https://en-gb.facebook.com/" target="_blank"><img class="footer__image" src="./images/facebook.jpg" alt="facebook"/></a>
             </li>
-            <li class="footer-social">
-              <a href="https://x.com/?lang=en-gb" target="_blank"><img class="footer-image" src="./images/twitter.jpg" alt="twitter" /></a>
+            <li class="footer__social">
+              <a href="https://x.com/?lang=en-gb" target="_blank"><img class="footer__image" src="./images/twitter.jpg" alt="twitter" /></a>
             </li>
-            <li class="footer-social">
-             <a href="https://gb.linkedin.com/" target="_blank"><img class="footer-image" src="./images/indeed.jpg" alt="indeed" /></a>
+            <li class="footer__social">
+             <a href="https://gb.linkedin.com/" target="_blank"><img class="footer__image" src="./images/indeed.jpg" alt="indeed" /></a>
             </li>
-            <li class="footer-social">
-              <a href="https://www.instagram.com/" target="_blank"><img class="footer-image" src="./images/instagram.jpg" alt="instagram"/></a>
+            <li class="footer__social">
+              <a href="https://www.instagram.com/" target="_blank"><img class="footer__image" src="./images/instagram.jpg" alt="instagram"/></a>
             </li>
           </ul>
           </div>
           <div class="pages">
-            <h2 class="pages-title">Pages</h2>
-            <ul class="pages-list">
-              <li class="pages-item">
-                <a class="pages-link" href="#">Style Guide</a>
+            <h2 class="pages__title">Pages</h2>
+            <ul class="pages__list">
+              <li class="pages__item">
+                <a class="pages__link" href="#">Style Guide</a>
               </li>
-              <li class="pages-item">
-                <a class="pages-link" href="#">Protected</a>
+              <li class="pages__item">
+                <a class="pages__link" href="#">Protected</a>
               </li>
-              <li class="pages-item">
-                <a class="pages-link" href="#">Licenses</a>
+              <li class="pages__item">
+                <a class="pages__link" href="#">Licenses</a>
               </li>
-              <li class="pages-item">
-                <a class="pages-link" href="#">Changelog</a>
+              <li class="pages__item">
+                <a class="pages__link" href="#">Changelog</a>
               </li>
-              <li class="pages-item">
-                <a class="pages-link" href="#">404</a>
+              <li class="pages__item">
+                <a class="pages__link" href="#">404</a>
               </li>
             </ul>
           </div>
           <div class="explore">
-            <h2 class="explore-title">Explore</h2>
-            <ul class="explore-list">
-              <li class="explore-item">
-                <a class="explore-link" href="#">About Us</a>
+            <h2 class="explore__title">Explore</h2>
+            <ul class="explore__list">
+              <li class="explore__item">
+                <a class="explore__link" href="#">About Us</a>
               </li>
-              <li class="explore-item">
-                <a class="explore-link" href="#">Recent Blog</a>
+              <li class="explore__item">
+                <a class="explore__link" href="#">Recent Blog</a>
               </li>
-              <li class="explore-item">
-                <a class="explore-link" href="#">Pricing Plan</a>
+              <li class="explore__item">
+                <a class="explore__link" href="#">Pricing Plan</a>
               </li>
-              <li class="explore-item">
-                <a class="explore-link" href="#">Our Projects</a>
+              <li class="explore__item">
+                <a class="explore__link" href="#">Our Projects</a>
               </li>
-              <li class="explore-item">
-                <a class="explore-link" href="#">Contact Us</a>
+              <li class="explore__item">
+                <a class="explore__link" href="#">Contact Us</a>
               </li>
             </ul>
           </div>
             <div class="contact">
-              <h2 class="contact-title">Contact</h2>
-            <ul class="contact-list">
-              <li class="contact-item">
-                <a class="contact-link" href="#"
+              <h2 class="contact__title">Contact</h2>
+            <ul class="contact__list">
+              <li class="contact__item">
+                <a class="contact__link" href="#"
                   >53, East Birchwood Ave. Brooklyn, New York 11201, USA.</a
                 >
               </li>
-              <li class="contact-item">
-                <a class="contact-link" href="mailto:contact@interno.com"
+              <li class="contact__item">
+                <a class="contact__link" href="mailto:contact@interno.com"
                   >contact@interno.com</a
                 >
               </li>
-              <li class="contact-item">
-                <a class="contact-link" href="#">(123) 456 - 7890</a>
+              <li class="contact__item">
+                <a class="contact__link" href="#">(123) 456 - 7890</a>
               </li>
             </ul>
             </div>
         </section>
       </div>
-      <section class="Copyright">
-          <p class="copyright-text">
-            Copyright © Interno | Designed by <span class="copyright-color">Victorflow</span> Templates -
-            Powered by <span class="copyright-color">Webflow</span>
+      <section class="copyright">
+          <p class="copyright__text">
+            Copyright © Interno | Designed by <span class="copyright__color">Victorflow</span> Templates -
+            Powered by <span class="copyright__color">Webflow</span>
           </p>
       </section>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-close" type="button" data-modal-close>
+          <svg class="modal-cross">
+            <use href="./images/symbol-defs.svg#icon-cross"></use>
+          </svg>
+        </button>
+        <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
+        <form class="modal-form">
+            <label class="modal-label" >Ім'я
+              <input required class="modal-input" type="text">
+              <svg class="modal-icon">
+                <use href="./images/symbol-defs.svg#icon-man"></use>
+              </svg>
+            </label>
+            <label class="modal-label" >Телефон
+              <input required pattern="^(?:\+380|380|0)\d{9}$" class="modal-input" type="tel">
+              <svg class="modal-icon">
+                <use href="./images/symbol-defs.svg#icon-man"></use>
+              </svg>
+            </label>
+            <label class="modal-label" >Пошта
+              <input required class="modal-input" type="email">
+              <svg class="modal-icon">
+                <use href="./images/symbol-defs.svg#icon-man"></use>
+              </svg>
+            </label>
+            <label class="modal-label" >Коментар
+              <textarea class="modal-coment" placeholder="Введіть текст"></textarea>
+            </label>
+            <div class="modal-wrap">
+              <input required class="modal-check" type="checkbox">
+            <p class="modal-text">Погоджуюся з розсилкою та приймаю</p>
+            <a class="modal-link" href="#">Умови договору</a>
+            </div>
+            <div class="modal-box">
+              <button class="modal-btn" type="submit">Відправити</button>
+            </div>
+        </form>
+      </div>
+    </div>
+    <script type="module" src="./js/modal.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
